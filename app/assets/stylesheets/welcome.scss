@@ -11,8 +11,8 @@ body {
 }
 
 h1, h2, h3, p {
-  color: yellow;
-  -webkit-text-stroke: 0.5px green;
+  color: white;
+  -webkit-text-stroke: 0.5px black;
 }
 
 .link_pic {
@@ -41,4 +41,12 @@ h1, h2, h3, p {
 
 .fireworks {
   width: 60%;
+}
+
+a, a:visited {
+  color: white;
+}
+
+.free-space {
+  margin-top: 50px;
 }

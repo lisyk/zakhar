@@ -1,12 +1,12 @@
 <div class="container">
   <h1>Hi <%= @guest.name %></h1>
 
-  <h2>We are happy to invite your family to celebrate Zakhar's birthday party with us</h2>
+  <h2>We are happy to invite your family to celebrate Zakhar's birthday party with us.</h2>
   <h3>Please check the links below and let us know if you are going to join us.</h3>
 </div>
 
 <div class="col-md-12 main-block">
-  <div class="col-md-7">
+  <div class="col-md-6 col-md-offset-1">
     <iframe width="660" height="415" src="https://www.youtube.com/embed/0XVkumJMDRs" frameborder="0" allowfullscreen></iframe>
   </div>
   <div class="col-md-5">
@@ -20,7 +20,7 @@
       <h2>Lake Accotink Park</h2>
       <h3>7500 Accotink Park Rd, Springfield, VA 22150</h3>
       <div>
-        <%= image_tag("shelter.png", class: "mg-responsive shelter") %>
+        <%= image_tag("shelter.png", class: "mg-responsive shelter img-thumbnail") %>
       </div>
     </div>
   </div>
@@ -35,3 +35,4 @@
     <%= link_to "Sorry, we can't join you.", guest_join_path(@guest, :visit => "no"), class: "col-md-4 col-md-offset-1 btn btn-danger btn-lg" %>
   </div>
 </div>
+<div class="free-space"></div>
